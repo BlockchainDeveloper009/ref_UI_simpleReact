@@ -9,14 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.3.7",
+    "@chakra-ui/table": "^2.0.11",
     "@types/node": "18.11.9",
-    "@types/react": "18.0.24",
+    "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "@walletconnect/web3-provider": "^1.8.0",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
     "ethers": "^5.7.2",
     "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1",
     "next": "13.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
