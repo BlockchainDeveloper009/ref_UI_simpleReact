@@ -1,0 +1,16 @@
+[
+    {
+
+        "_id": "1",
+        "title": "1",
+        "imageName":"img.png",
+        "price": 245
+    },
+    {
+        
+        "_id": "2",
+        "title": "2",
+        "imageName":"img2.png",
+        "price": 300
+    }
+]
