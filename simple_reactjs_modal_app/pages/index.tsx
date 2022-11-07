@@ -106,6 +106,11 @@ const Home: NextPage<{characters: Character[]}> = ({characters}) => {
       console.log(roleType);
       router.push('/createBond')
     } 
+    if(roleType =="bondCreator")
+    {
+      console.log(roleType);
+      router.push('/createBond')
+    } 
   }
   const createBondFlow = () => {
 

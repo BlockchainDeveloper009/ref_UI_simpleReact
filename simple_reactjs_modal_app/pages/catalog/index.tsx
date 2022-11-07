@@ -7,6 +7,16 @@ import products from './products.json'
 
 function Catalog() {
     const [cart, setCart] = useState ({ products: [] })
+    const [products, setProducts] = useState([])
+
+    function fetchProducts() {
+        fetch('api/products')
+        .then(res=>res.json())
+        .then(data => setProducts(data))
+
+    }
+    useEffect(()=> fetchProducts(),[])
+
 
     function addToCart(product: string){
         const newCart = { _id: cart._id }
